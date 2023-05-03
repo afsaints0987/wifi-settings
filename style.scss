@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+$color-primary: #ffffff;
+$color-secondary: #F0F5FA;
+$color-outline: #193B6514;
+
 html {
     margin: 0;
     padding: 0;
@@ -10,4 +17,46 @@ body {
     align-items: center;
     margin: auto;
     height: 75vh;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        border: 1px solid $color-outline;
+        padding: 10px 15px;
+        border-radius: 20px;
+
+        .card-header {
+            border-bottom: 1px solid $color-outline;
+
+            h3 {
+                color: #193B65;
+            }
+        }
+
+        .card-body {
+            padding: 10px 10px;
+
+            .card-body-content {
+                display: inline-flex;
+                flex-wrap: wrap;
+                gap: 10px;
+
+                .form-group {
+                    label {
+                        margin-bottom: 5px;
+                    }
+                    input {
+                        border: 1px solid $color-outline;
+                        border-radius: 5px;
+                        padding: 5px 15px;
+                    }
+                }
+            }
+        }
+    }
 }
