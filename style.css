@@ -56,10 +56,13 @@ body .card .card-body .card-body-content {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 10px;
+  color: #3B4358;
 }
 
 body .card .card-body .card-body-content .form-group label {
   margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 body .card .card-body .card-body-content .form-group input {

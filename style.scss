@@ -4,6 +4,7 @@
 $color-primary: #ffffff;
 $color-secondary: #F0F5FA;
 $color-outline: #193B6514;
+$color-text: #3B4358;
 
 html {
     margin: 0;
@@ -45,10 +46,13 @@ body {
                 display: inline-flex;
                 flex-wrap: wrap;
                 gap: 10px;
+                color: $color-text;
 
                 .form-group {
                     label {
                         margin-bottom: 5px;
+                        font-size: 15px;
+                        font-weight: bold;
                     }
                     input {
                         border: 1px solid $color-outline;
