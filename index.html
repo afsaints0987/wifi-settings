@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wi-Fi Settings</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h5>2.4 GHz</h5>
+        </div>
+        <div class="card-body">
+            <div class="card-body-content">
+                <div class="form-group">
+                    <label for="wifi-name">Wi-Fi Name</label>
+                    <input type="text" name="wifi-name">
+                </div>
+                <div class="form-group">
+                    <label for="wifi-password">Wi-Fi Password</label>
+                    <div class="input-group">
+                        <input type="text" name="wifi-password">
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <p>Advanced Settings</p>
+            <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="card-hidden">
+            <div class="card-hidden-content">
+                <div class="form-group">
+                    <label for="ssid-no">SSID Number</label>
+                    <select type="number" name="ssid">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="auth">Authentication</label>
+                    <select type="text" name="auth">
+                        <option>WPA / WPA2</option>
+                        <option>WPA2 Personal</option>
+                        <option>WPA3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="encrypt">Encryption Mode</label>
+                    <select type="text" name="encrypt">
+                        <option>TKIP & AES</option>
+                        <option>TKIP</option>
+                        <option>AES</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="wpa">WPA Key Interval</label>
+                    <input type="number" name="wpa">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
