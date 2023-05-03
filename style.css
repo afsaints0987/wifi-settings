@@ -10,6 +10,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -69,5 +73,22 @@ body .card .card-body .card-body-content .form-group input {
   border: 1px solid #193B6514;
   border-radius: 5px;
   padding: 5px 15px;
+}
+
+body .card .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px;
+}
+
+body .card .card-footer p {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
